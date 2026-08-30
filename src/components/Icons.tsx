@@ -124,3 +124,12 @@ export function SpinnerIcon(props: IconProps) {
     </svg>
   );
 }
+
+/** Filled four-point sparkle — used for the completion celebration. */
+export function SparkleIcon(props: IconProps) {
+  return (
+    <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden {...props}>
+      <path d="M12 0c1 8.2 3.8 11 12 12-8.2 1-11 3.8-12 12-1-8.2-3.8-11-12-12C8.2 11 11 8.2 12 0Z" />
+    </svg>
+  );
+}
